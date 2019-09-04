@@ -16,7 +16,7 @@ func (m Middleware) LoggingHandler(next http.Handler) http.Handler {
 		next.ServeHTTP(w, r)
 		t2 := time.Now()
 
-		log.Panicf("[%s] %q %v", r.Method, r.URL.String(), t2.Sub(t1))
+		log.Printf("[%s] %q %v", r.Method, r.URL.String(), t2.Sub(t1))
 	}
 
 	return http.HandlerFunc(fn)

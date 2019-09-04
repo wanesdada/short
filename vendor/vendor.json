@@ -9,6 +9,12 @@
 			"revisionTime": "2019-08-30T12:11:56Z"
 		},
 		{
+			"checksumSHA1": "OBvAHqWjdI4NQVAqTkcQAdTuCFY=",
+			"path": "github.com/justinas/alice",
+			"revision": "03f45bd4b7dad4734bc4620e46a35789349abb20",
+			"revisionTime": "2017-10-23T06:44:55Z"
+		},
+		{
 			"checksumSHA1": "MxFS4102lGNECDhesJmzvGxKK+0=",
 			"path": "gopkg.in/validator.v2",
 			"revision": "1a84e0480e5b570eb3c8366596e2d5e9befe33fc",
