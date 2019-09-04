@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Ly2DPGZEU/9uJgLXtlqbJ0rZUAA=",
+			"path": "github.com/gorilla/mux",
+			"revision": "884b5ffcbd3a11b730f0b75f5c86ac408753c34d",
+			"revisionTime": "2019-08-30T12:11:56Z"
+		},
+		{
+			"checksumSHA1": "MxFS4102lGNECDhesJmzvGxKK+0=",
+			"path": "gopkg.in/validator.v2",
+			"revision": "1a84e0480e5b570eb3c8366596e2d5e9befe33fc",
+			"revisionTime": "2018-04-04T13:50:05Z"
+		}
+	],
+	"rootPath": "short"
+}
