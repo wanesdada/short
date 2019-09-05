@@ -21,6 +21,12 @@
 			"revisionTime": "2017-10-23T06:44:55Z"
 		},
 		{
+			"checksumSHA1": "5ItWLIoJpwy91Z3QNdruSU5hATo=",
+			"path": "github.com/mattheath/base62",
+			"revision": "b80cdc656a7a61702f293555d54777d6ff617eb7",
+			"revisionTime": "2015-04-08T09:36:26Z"
+		},
+		{
 			"checksumSHA1": "MxFS4102lGNECDhesJmzvGxKK+0=",
 			"path": "gopkg.in/validator.v2",
 			"revision": "1a84e0480e5b570eb3c8366596e2d5e9befe33fc",
