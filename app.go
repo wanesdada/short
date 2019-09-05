@@ -23,7 +23,7 @@ type shortenReq struct {
 }
 
 type shortlinkResp struct {
-	shortlink string `json:"shortlink"`
+	Shortlink string `json:"shortlink"`
 }
 
 // Initialize is initialization of app
@@ -70,10 +70,12 @@ func (a *App) createShortlink(w http.ResponseWriter, r *http.Request) {
 
 	s, err := a.Config.S.Shorten(req.URL, req.ExpirationInMinutes)
 
+	fmt.Println("s", s)
+
 	if err != nil {
 		respondWithError(w, err)
 	} else {
-		respondWithJson(w, http.StatusCreated, shortlinkResp{shortlink: s})
+		respondWithJson(w, http.StatusCreated, shortlinkResp{Shortlink: s})
 	}
 }
 
